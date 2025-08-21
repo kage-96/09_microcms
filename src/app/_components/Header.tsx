@@ -5,7 +5,6 @@ import { FC } from "react";
 
 export const Header:FC = () => {
   return(
-    <>
       <header className="header bg-gray-800 font-bold text-white">
         <nav>
           <ul className="flex items-center justify-between p-6">
@@ -14,6 +13,5 @@ export const Header:FC = () => {
           </ul>
         </nav>
       </header>
-    </>
   )
 }
